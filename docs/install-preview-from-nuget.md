@@ -1,10 +1,10 @@
 # Install sensenet Preview from NuGet
 
-This article is **for developers** about installing the **Preview** component for [sensenet ECM](https://github.com/SenseNet) from NuGet. Before you can do that, please install at least the core layer, [sensenet Services](/docs/install-sn-from-nuget), which is a prerequisite of this component.
+This article is **for developers** about installing the **Preview** component for [sensenet ECM](https://github.com/SenseNet) from NuGet. Before you can do that, please install at least the core layer, [sensenet Services](https://github.com/SenseNet/sensenet/blob/master/docs/install-sn-from-nuget.md), which is a prerequisite of this component.
 
->About choosing the components you need, take a look at [this article](/docs/sensenet-components) that describes the main components and their relationships briefly.
+>About choosing the components you need, take a look at [this article](https://github.com/SenseNet/sensenet/blob/master/docs/sensenet-components.md) that describes the main components and their relationships briefly.
 
-![sensenet Preview](https://github.com/SenseNet/sn-resources/raw/master/images/sn-components/sn-components_preview.png "sensenet Preview")
+![sensenet Preview](https://github.com/SenseNet/sn-resources/raw/master/images/sn-components/sn-components.png "sensenet Preview")
 
 ## The SenseNet.Preview.Install package
 This component contains the preview modules needed in sensenet ECM to **access and display** preview images. It also contains the mechanism for **initiating preview generation**, when it is available.
